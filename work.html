@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="utf-8">
+        <title>work</title>
+        <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
+        <link href="https://fonts.google.com/share?selection.family=Roboto:wght@100" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.production.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header class="page-header">
+            <!--Add logo here-->
+            <img src="img/logo.png" alt="logo" width="200" height="200" class="page-header__item">
+            <button class="menu-toggle page-header__item" aria-label="Menu">☰</button>
+            <nav class="main-navigation page-header__item">
+                <ul role="menubar" class="navigation-list">
+                    <li role="presentation">
+                        <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="work.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Work</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Main Content-->
+        <section>
+            <h1>Work</h1>
+            <div class="grid">
+                <!--Grid items will live here-->
+                <div class="grid__item">
+                    <h2>To-Do List App</h2>
+                    <img src="img/To-do-screen.PNG" alt="Screenshot of To-Do List App" style="width:100%; height:auto;">
+                    <p>
+                        The "To-Do List App" is a web application designed to help users efficiently manage their daily tasks. It provides a simple and intuitive interface for adding, deleting, and marking tasks as completed. The application features a minimalist design for easy navigation and task management, enhancing user productivity with basic functionalities and advanced features like item reordering and completion marking.
+                    </p>
+                    <p>Technologies used: HTML5, CSS, JavaScript, jQuery, jQuery UI.</p>
+                    <a href="To-Do-App/index.html" target="_blank">See how it works</a>
+                </div>
+                
+                <div class="grid__item">
+                    <h2>Pokédex App</h2>
+                    <img src="img/pokedex.PNG" alt="Screenshot of Pokedex App" style="width:100%; height:auto;">
+                    <p>
+                        The "Pokédex App" is a JavaScript web application that allows users to browse a database of Pokémon. It loads data from the external Pokémon API and displays details about each Pokémon when selected. The goal is to demonstrate how to build a functional and aesthetically pleasing web app using modern web technologies.
+                    </p>
+                    <p>Technologies used: HTML, CSS, JavaScript, external APIs (Pokémon API).</p>
+                    <a href="https://darkvisor5.github.io/Pokedex/#" target="_blank">See live version</a> |
+                    <a href="https://github.com/DarkVisor5/Pokedex" target="_blank">GitHub Repository</a>
+                </div>
+                <div class="grid__item">
+                    <h2>myFlix API</h2>
+                    <img src="img/mongo.PNG" alt="Screenshot of MongoDB cluster" style="width:100%; height:auto;">
+                    <p>
+                        The "myFlix API" provides a server-side for a movies web application, where users can access detailed information about movies, directors, and genres. It allows users to register, update their profile, and manage their favorite movies list. This project demonstrates the ability to build full-stack applications using the MERN stack.
+                    </p>
+                    <p>Technologies used: Node.js, Express, MongoDB, Mongoose, REST API.</p>
+                    <a href="https://github.com/DarkVisor5/move_api" target="_blank">GitHub Repository</a>
+                </div>
+                <div class="grid__item">
+                    <h2>myFlix React App</h2>
+                    <img src="img/api.PNG" alt="Screenshot Api" style="width:100%; height:auto;">
+                    <p>
+                        The "myFlix React App" is the client-side development of the myFlix project, providing a dynamic and interactive user interface for accessing movie information. Built with React, this single-page application enhances user experience by allowing responsive interactions and real-time updates without page reloads.
+                    </p>
+                    <p>Technologies used: React, React Router, Redux, Bootstrap.</p>
+                    <a href="https://myflixleo.netlify.app/login" target="_blank">See live version</a> |
+                    <a href="https://github.com/DarkVisor5/myFlixReact" target="_blank">GitHub Repository</a>
+                </div>
+                <div class="grid__item">
+                    <h2>Meet App</h2>
+                    <img src="img/events.PNG" alt="Screenshot Events" style="width:100%; height:auto;">
+                    <p>
+                        The "Meet App" is a serverless, progressive web application (PWA) built using React and developed with a test-driven development (TDD) approach. It integrates with the Google Calendar API to fetch upcoming events, enhancing user experience by allowing the app to function offline and support interactive data visualizations like charts.
+                    </p>
+                    <p>Technologies used: React, Google Calendar API, AWS Lambda, Serverless, TDD, PWA features.</p>
+                    <a href="https://darkvisor5.github.io/meet/" target="_blank">See live version</a> |
+                    <a href="https://github.com/DarkVisor5/meet" target="_blank">GitHub Repository</a>
+                </div>
+            </div>
+        </section>
+        
+
+        <!--footer-->
+        <footer class="page-footer">
+            <p>Find me on</p>
+            <div class="social-media">
+                <a href="https://github.com/DarkVisor5?tab=repositories" target="_blank">
+                    <img src="img/github_icon.svg" alt="My GitHub Profile">
+                </a>
+                <a href="https://twitter.com/leonardolanaia" target="_blank">
+                    <img src="img/twitter_icon.svg" alt="My Twitter Profile">
+                </a>
+                <a href="https://www.linkedin.com/in/leonardo-lanaia-31039a83" target="_blank">
+                    <img src="img/linkedin_icon.svg" alt="My LinkedIn Profile">
+                </a>
+            </div>
+            
+        </footer>
+        
+        <script src="js/tota11y.min.js"></script>
+        <script src="js/menu-fan.js"></script>
+    </body>
+</html>
+
